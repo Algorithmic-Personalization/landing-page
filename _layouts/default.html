@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img src="{{site.logo}}" alt="Logo" />
+        {% endif %}
+
+        <p>{{ site.description }}</p>
+
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ "/" | absolute_url }}">Provide <strong>Consent</strong></a></li>
+          <li><a href="{{ "/" | absolute_url }}">Install on<strong>Chrome</strong></a></li>
+          <li><a href="{{ "/" | absolute_url }}">Install on <strong>Firefox</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p><small>A project by <a href="https://algorithmic-alignment.csail.mit.edu/">MIT</a>, <a href="http://people.eecs.berkeley.edu/~brecht/group.html">UC-Berkeley</a>, and <a href="https://aiforensics.org/">AI Forensics</a></small></p>
+        <p><small><a href="{{ "privacy_policy.html" | absolute_url }}">Privacy Policy</a> <a href="mailto:recsysexp@mit.edu">Contact</a></small></p>
+      </footer>
+    </div>
+    <script src="assets/js/scale.fix.js"></script>
+  </body>
+</html>
