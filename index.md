@@ -5,7 +5,7 @@ layout: default
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/hiFt0jglDcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-> This extension makes slight modifications to your YouTube recommendation feed, and records the interaction you make with it. No personal information about you is tracked and collected. For once, it’s not you being tracked / analyzed by YouTube, it’s you who tracks YouTube. 
+> This extension makes slight modifications to your YouTube recommendation feed, and records how you interact with it. No personal information about you is tracked and collected. For once, it’s not you being tracked / analyzed by YouTube, it’s you who tracks YouTube. It is part of an academic research project into the long-term effects of recommendation.
 
 ## Summary
 This extension investigates the influence of personalized recommendations on user engagement and interaction on YouTube. By installing our study-specific web extension, you'll be participating in a research experiment that alters YouTube recommendations, helping us understand how this personalization affects user choices. The extension, designed to prioritize your privacy, doesn't collect personal data and is committed to minimal interference with your usual user experience. It only records data associated with changes in user engagement linked to modifications in recommendation personalization. The valuable data obtained will be used to assess the long-term impact of personalization on user behavior, contributing to a more comprehensive understanding of digital content platforms and their influence on user behavior.
