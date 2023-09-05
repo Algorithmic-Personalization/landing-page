@@ -3,7 +3,7 @@ layout: default
 ---
 # The Personalization Experiment
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/hiFt0jglDcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<div class="ad-container"><iframe src="https://www.youtube.com/embed/hiFt0jglDcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 > This extension makes slight modifications to your YouTube recommendation feed, and records how you interact with it. No personal information about you is tracked and collected. For once, it’s not you being tracked / analyzed by YouTube, it’s you who tracks YouTube. It is part of an academic research project into the long-term effects of recommendation.
 

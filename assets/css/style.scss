@@ -2,3 +2,66 @@
 ---
 
 @import "jekyll-theme-minimal";
+header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+  
+.logo-container img {
+  object-fit: contain;
+  flex: 1;  /* Each image will take up an equal amount of space */
+  max-width: 33.33%;  /* Limit the maximum width to 1/3 of the container */
+  height: 40px;
+}
+
+.ad-container iframe {
+  width: 100%;
+}
+
+
+@media print, screen and (max-width: 960px) {
+  header ul.downloads {
+    width: 100%;
+
+  }
+
+  .downloads li {
+    width: 100%;
+  }
+  
+  header img {
+    width: 20%;
+  }
+
+  header {
+    padding-right: 0px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  .downloads li, .downloads li + li + li {
+    width: 100%;
+    flex: 1;
+  }
+  .downloads {
+    width: 33%;
+  }
+  header ul, header p.view {
+    position: static;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  .downloads li, .downloads li + li + li {
+    width: 100%;
+    flex: 1;
+  }
+  .downloads {
+    width: 33%;
+  }
+}
