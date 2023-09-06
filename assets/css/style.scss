@@ -59,6 +59,9 @@ header img {
   header ul, header p.view {
     position: static;
   }
+  header img {
+    width: 20%;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -71,5 +74,8 @@ header img {
   }
   header ul, header p.view {
     position: static;
+  }
+  header img {
+    width: 20%;
   }
 }
