@@ -19,32 +19,37 @@ header img {
   height: 40px;
 }
 
-.ad-container iframe {
+.ad-container {
+  position: relative;
   width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+}
+
+.ad-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
 @media print, screen and (max-width: 960px) {
-  header ul.downloads {
-    width: 100%;
-
-  }
-
   .downloads li {
     width: 100%;
+    flex: 1;
   }
-  
   header img {
     width: 20%;
   }
-
-  header {
-    padding-right: 0px;
+  header ul, header p.view {
+    position: static;
   }
 }
 
 @media print, screen and (max-width: 720px) {
-  .downloads li, .downloads li + li + li {
+  .downloads li {
     width: 100%;
     flex: 1;
   }
@@ -57,11 +62,14 @@ header img {
 }
 
 @media print, screen and (max-width: 480px) {
-  .downloads li, .downloads li + li + li {
+  .downloads li {
     width: 100%;
     flex: 1;
   }
   .downloads {
     width: 33%;
+  }
+  header ul, header p.view {
+    position: static;
   }
 }
